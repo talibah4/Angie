@@ -1,0 +1,122 @@
+/*Portfolio style sheet*/
+* {
+	color: #52777A;
+	font-family: "Avantgarde", Helvetica, sans-serif;
+	font-weight: 200;
+	margin: 10px;
+	padding: 30px;
+}
+
+h1 {
+	text-shadow: 0px 0.1px #52777A;
+}
+
+p::first-line { 
+    color: #3e5e60;
+}
+
+p::first-letter { 
+    font-size: 101%;
+}
+
+.media  {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.media1  {
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+.media2{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+figure #right{
+	float: right;
+	clear: right;
+	padding: 0;
+	margin: 0;
+}
+
+#index {
+	background-image: url("images/road1.jpg");
+    background-color: #cccccc;
+
+}
+
+figure #left{
+	float: left;
+	clear: left;
+	padding: 0;
+	margin: 0;
+}
+
+figcaption#title {
+  display: block;
+  padding: 0.5em 0;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255,255, 0.5);
+  color: #336666;
+}
+
+figcaption {
+  display: block;
+  padding: 0.5em 0;
+  width: 100%;
+  color: #336666;
+}
+
+div#hmenu { 
+   padding-top: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   background: #ffffff; 
+   width: 100%; 
+   text-align: center; 
+   position: static;
+} 
+
+div#hmenu ul li { 
+   margin: 0; 
+   padding: 50; 
+   display: inline; 
+} 
+
+div#hmenu ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: 200; 
+   font-size: medium; 
+   color: #839BA3; 
+} 
+
+div#hmenu ul a:active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: 200; 
+   font-size: medium; 
+   color: #839BA3; 
+} 
+
+div#hmenu ul a:hover{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: 200; 
+   font-size: medium; 
+   color: #ffffff; 
+   background-color: #A3D1C4; 
+}
+
+
+

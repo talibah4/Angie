@@ -1,0 +1,17 @@
+label {
+display: block;
+}
+
+input:focus, textarea:focus {
+  background: #bbddd3;
+  color: black;
+  border-color: white;
+  }
+#submit {
+  background-color: Transparent;
+  font-size: 1.2em;
+}
+#submitbutton {
+   text-align: center;
+   border: 0.1em;
+}
